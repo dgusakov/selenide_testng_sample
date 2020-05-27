@@ -17,7 +17,7 @@ public class TestBase {
     @BeforeClass
     public void setUp(){
         Configuration.timeout = 10000;
-
+        Configuration.reportsFolder = "test-results";
         Configuration.browser = "chrome";
         Configuration.browserSize = "1920x1080";
         Configuration.baseUrl = "https://yandex.ru";
