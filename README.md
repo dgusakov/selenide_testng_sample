@@ -15,5 +15,5 @@
     mvn clean test
     ```
 
-Note: there will bw 2 parallel test executed. One should pass by default while the other should fail
+Note: there will be 2 parallel test executing at he same time. One should pass by default while the other should fail
  
