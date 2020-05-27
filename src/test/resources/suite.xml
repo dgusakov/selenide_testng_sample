@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+        <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Test Suite" parallel="tests" thread-count="2">
+
+
+    <test name="SearchTest1">
+        <parameter name="search-string" value="Some string to search" />
+        <classes>
+            <class name="org.dgusakov.selenide_testng_sample.SearchTests"/>
+        </classes>
+    </test>
+
+    <test name="SearchTest2">
+        <parameter name="search-string" value="117266546" />
+        <classes>
+            <class name="org.dgusakov.selenide_testng_sample.SearchTests"/>
+        </classes>
+    </test>
+
+
+</suite>
