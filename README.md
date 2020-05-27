@@ -1,6 +1,6 @@
 # Selenide + TestNG sample
  
-  - Before running of the the tests, download chromedriver and place it to the one ot the PATH folders
+  - Before running tests, download chromedriver and place it to the one ot the PATH folders
   (chromedriver executable should be available for launch from command line or terminal)
 
   
